@@ -1,0 +1,374 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+
+
+
+/* ================================================= */
+/*                 MI CODIGO*/
+/* ================================================= */
+
+
+*{
+  text-decoration: none;
+}
+
+
+main {
+  padding-top: 100px;
+  background-color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #212121;
+  width: 100%;
+  height: 100px;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.6);
+}
+
+header .header-brand {
+  font-family: Righteous;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav li a {
+  font-family: Sen;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+@media only screen and (min-width:1000px) {
+
+
+
+  main {
+    padding-top: 70px;
+    background-color: white;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #212121;
+    width: 100%;
+    height: 70px;
+  }
+
+
+  header .header-brand {
+    margin: 20px 0;
+    text-align: left;
+    line-height: 14px;
+    padding: 10px 20px 10px 40px;
+    border-right: 2px solid #FFFFFF;
+    float: left;
+  }
+
+  header nav ul {
+    float: left;
+    margin: 20px 0px 0px 20px;
+  }
+
+  header nav li a {
+
+    line-height: 40px;
+  }
+
+}
+
+
+
+
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+/* ============================================================================== */
+
+/*  GALLERY */
+
+
+.gallery-links-h2{
+  font-family: Sen;
+  font-size: 28px;
+  font-weight: 400;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+
+.gallery-links {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gallery-img {
+  border: 2px solid lightgray;
+  padding: 10px 0px;
+  border-radius: 10px;
+  flex-basis: 31%;
+  margin: 15px;
+}
+
+.gallery-img div {
+  background-color: white;
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: Sen;
+  text-align: center;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 762px) {
+
+
+
+  .gallery-links-h2 {
+    font-size: 28px;
+  }
+
+  .gallery-img {
+    flex-basis: 230px;
+    margin: 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 50px 20px;
+  margin-top: 100px;
+  background-color: #212121;
+  -webkit-box-shadow: 0px -4px 10px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px -4px 10px 0px rgba(0,0,0,0.6);
+  box-shadow: 0px -4px 10px 0px rgba(0,0,0,0.6);
+}
+
+
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #212121;
+}
+
+.social a img {
+  width: 50px;
+  background-color: #212121;
+  padding: 0px 10px;
+}
+
+.copyright {
+  margin: 10px 0px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  background-color: #212121;
+  text-align: center;
+  font-family: Sen;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
+
+/* */
