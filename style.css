@@ -180,14 +180,16 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  float: left;
+  float: center;
+  text-align: center;
   list-style: none;
-  padding: 0 16px;
+  padding: 0 5px;
 }
 
 header nav li a {
   font-family: Sen;
-  font-size: 16px;
+  text-align: center;
+  font-size: 12px;
   font-weight: 100;
   color: white;
   text-transform: uppercase;
@@ -271,7 +273,7 @@ header nav li a {
   margin: 15px;
 }
 .about-img2 {
-  border: 2px solid lightgray;
+  border: 2px solid white;
   padding: 10px 0px;
   border-radius: 10px;
   flex-basis: 31%;
@@ -309,7 +311,7 @@ header nav li a {
 
 
   .gallery-links-h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .about-img {
@@ -321,7 +323,13 @@ header nav li a {
     flex-basis: 230px;
     margin: 15px;
   }
-
+  .about-img2 {
+    border: 2px solid lightgray;
+    padding: 10px 0px;
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin: 15px;
+  }
 }
 
 
@@ -347,7 +355,7 @@ header nav li a {
 
 .gallery-links-h2{
   font-family: Sen;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 400;
   color: #111;
   text-transform: uppercase;
